@@ -8,7 +8,6 @@ from adafruit_hid.keycode import Keycode
 from adafruit_hid.consumer_control import ConsumerControl
 from adafruit_hid.consumer_control_code import ConsumerControlCode
 
-# NEXUS 2x3 COL2ROW matrix, matching the KiCad pinout.
 ROWS = (board.GP6, board.GP7)
 COLS = (board.GP8, board.GP9, board.GP10)
 
@@ -29,7 +28,6 @@ for pin in COLS:
 keyboard = Keyboard(usb_hid.devices)
 consumer = ConsumerControl(usb_hid.devices)
 
-# Replace these actions with the user's final macro choices.
 KEYMAP = (
     (("key", (Keycode.CONTROL, Keycode.ALT, Keycode.T)),),
     (("key", (Keycode.CONTROL, Keycode.ALT, Keycode.N)),),
