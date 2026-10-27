@@ -1,6 +1,6 @@
 # NEXUS nominal fit check — v1.2
 
-This is a CAD-envelope check, not a release for fabrication or a physical validation. The computer-use workflow added a permanent Onshape fit-preview parameter and regeneration checks; the PDF workflow exposed the incorrect switch stack using the manufacturer's mechanical drawing.
+This is a nominal CAD-envelope check, not a fabrication release or physical validation. The manufacturer's mechanical drawing exposed an incorrect switch stack; the revised Onshape case includes fit-preview envelopes and regeneration checks. The design and verification were AI-assisted.
 
 ## Corrections
 
@@ -36,7 +36,7 @@ After rerouting the underside pullups and replacing J1's footprint: zero reporte
 - Product links or measured dimensions for the actual controller, sockets, OLED, switches, and USB data cable.
 - Confirm insert manufacturer's required pilot diameter, and trial-print one switch cutout and insert hole.
 - Replace provisional envelopes with actual component models where available and verify tolerances/lead trimming.
-- Write/build/flash firmware and test the physical assembly.
+- Complete and flash the starter firmware, then validate its behavior on the physical assembly.
 - Download the v1.2 case exports from Onshape; old v1/v1.1 exports are superseded.
 - Confirm Keeb accepts a six-key, AI-assisted macro pad before committing grant funds. No organizer has been contacted or application submitted.
 
