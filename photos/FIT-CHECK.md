@@ -1,6 +1,6 @@
 # NEXUS nominal fit check — v1.2
 
-This is a nominal CAD-envelope check, not a fabrication release or physical validation. The manufacturer's mechanical drawing exposed an incorrect switch stack; the revised Onshape case includes fit-preview envelopes and regeneration checks. The design and verification were AI-assisted.
+This is a nominal CAD-envelope check, not a fabrication release or physical validation. The manufacturer's mechanical drawing exposed an incorrect switch stack; the revised Onshape case includes fit-preview envelopes and regeneration checks.
 
 ## Corrections
 
@@ -38,7 +38,7 @@ After rerouting the underside pullups and replacing J1's footprint: zero reporte
 - Replace provisional envelopes with actual component models where available and verify tolerances/lead trimming.
 - Complete and flash the starter firmware, then validate its behavior on the physical assembly.
 - Download the v1.2 case exports from Onshape; old v1/v1.1 exports are superseded.
-- Confirm Keeb accepts a six-key, AI-assisted macro pad before committing grant funds. No organizer has been contacted or application submitted.
+- Confirm Keeb accepts a six-key macro pad under its eligibility rules before committing grant funds. No organizer has been contacted or application submitted.
 
 Mechanical source: [Cherry MX manufacturer's drawing, page 2](https://www.farnell.com/datasheets/1792245.pdf).
 
