@@ -19,7 +19,7 @@ These are planned macro uses. The final key assignments depend on the firmware a
 
 ## Build status
 
-The schematic, PCB routing, case CAD, and firmware source are prepared. The case's physical fit and the complete device still need to be tested.
+The schematic, two-layer PCB routing, case CAD, and starter firmware are prepared. The switches use 19.05 mm pitch. A manufacturer drawing exposed an incorrect switch stack, which was corrected in the v1.2 case; nominal CAD envelopes and KiCad electrical checks were then run. See the [fit check](photos/FIT-CHECK.md) for the calculations and limitations. Physical fit, fabrication, and firmware behavior on the assembled device remain unverified.
 
 ## Files
 
